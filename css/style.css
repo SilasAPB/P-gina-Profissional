@@ -31,6 +31,11 @@ h1 {
     flex-direction: row;
 }
 
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
 .subtitulo {
     color: rgb(50, 50, 50);
     font-size: 0.9rem;
@@ -74,14 +79,26 @@ h1 {
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
     text-align: center;
-    color: whitesmoke;
-    background-color: black;
     Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
     font-weight:bolder;
 }
 
-.botao-moldura{
+.b-preto{
+    color: whitesmoke;
+    background-color: black;
+}
+
+.b-branco{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.b-m-p{
     border: 0.2rem solid black;
+}
+
+.b-m-b{
+    border: 0.2rem solid whitesmoke;
 }
 
 .bold{
@@ -90,8 +107,4 @@ h1 {
 
 .right{
     text-align: right;
-}
-
-.moldura-5{
-    margin: 1rem;
 }
