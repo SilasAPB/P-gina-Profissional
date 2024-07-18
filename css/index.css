@@ -21,20 +21,26 @@
     font-optical-sizing: auto;
     font-size: 3rem;
     color:rgb(0, 0, 0);
-    text-align: right;
     font-weight: bold;
-    padding-left: 4rem;
 }
 .texto-tema{
     font-family: 'Piazzolla', sans-serif;
     font-optical-sizing: auto;
     font-size: 1.15rem;
-    padding-left: 8rem;
     color:rgb(50, 50, 50);
-    text-align: right;
     line-height: 1.5rem;
 }
 
 .titulos{
     margin-bottom: 1.5rem;
+}
+
+
+.right, .texto-tema{
+    padding-left: 8rem;
+}
+
+
+.right, .titulo-tema{
+    padding-left: 4rem;
 }
