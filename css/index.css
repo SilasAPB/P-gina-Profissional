@@ -7,7 +7,16 @@
     padding-inline: 7%;
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: rgb(200, 225, 255);
+    background-color:#4AC6FF;
+}
+
+.pt2{
+    display: flex;
+    flex-direction: row;
+    padding-inline: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgb(22, 22, 22);
 }
 
 .box{
@@ -27,7 +36,6 @@
     font-family: 'Piazzolla', sans-serif;
     font-optical-sizing: auto;
     font-size: 1.15rem;
-    color:rgb(50, 50, 50);
     line-height: 1.5rem;
 }
 
@@ -36,11 +44,34 @@
 }
 
 
-.right, .texto-tema{
+.right.texto-tema{
     padding-left: 8rem;
 }
 
 
-.right, .titulo-tema{
+.right.titulo-tema{
     padding-left: 4rem;
+}
+
+.left.texto-tema{
+    padding-right: 8rem;
+}
+
+.left.titulo-tema{
+    padding-right: 4rem;
+}
+
+.black-grey{
+    color:rgb(50, 50, 50);
+}
+
+.white-grey{
+    color:rgb(202, 202, 202);
+}
+
+.black{
+    color:black;
+}
+.white{
+    color:whitesmoke;
 }

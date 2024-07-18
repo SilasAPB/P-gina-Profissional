@@ -58,6 +58,16 @@ h1 {
    
 }
 
+.botao-esquerda{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    text-decoration: none;
+   
+}
+
 .botao-text{
     margin: 0.2rem;
     padding-inline: 0.4rem;
@@ -80,4 +90,8 @@ h1 {
 
 .right{
     text-align: right;
+}
+
+.moldura-5{
+    margin: 1rem;
 }
