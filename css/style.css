@@ -35,6 +35,10 @@ h1 {
     display: flex;
     flex-direction: row;
 }
+.column{
+    display: flex;
+    flex-direction: column;
+}
 
 .subtitulo {
     color: rgb(50, 50, 50);
@@ -112,3 +116,20 @@ h1 {
 .center{
     text-align: center;
 }
+
+
+.space-between{
+    justify-content: space-between;
+}
+
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+
+
+.space-around{
+    justify-content: space-around;
+}
+

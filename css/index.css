@@ -46,7 +46,7 @@
 .texto-tema{
     font-family: 'Piazzolla', sans-serif;
     font-optical-sizing: auto;
-    font-size: 1.15rem;
+    font-size: 1.2rem;
     line-height: 1.5rem;
 }
 
@@ -85,4 +85,32 @@
 }
 .white{
     color:whitesmoke;
+}
+
+.losango{
+    border-radius: 4rem;
+    padding: 1rem;
+    margin: 1.5rem;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #1A1D1E;
+}
+
+
+.icones{
+    width: 10rem;
+    height: 10rem;
+    border-radius:1rem;
+    margin: 1rem;
+    transform: rotate(-45deg)
+}
+.text-icones{
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    font-family: 'Piazzolla', sans-serif;
+    font-optical-sizing: auto;
+    line-height: 1.5rem;
 }
