@@ -77,6 +77,16 @@ h1 {
    
 }
 
+.botao-center{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    text-decoration: none;
+}
+
 .botao-text{
     margin: 0.2rem;
     padding-inline: 0.4rem;
@@ -89,7 +99,7 @@ h1 {
 
 .b-preto{
     color: whitesmoke;
-    background-color: black;
+    background-color: #1a1d1e;
 }
 
 .b-branco{
@@ -98,7 +108,7 @@ h1 {
 }
 
 .b-m-p{
-    border: 0.2rem solid black;
+    border: 0.2rem solid #1A1D1E;
 }
 
 .b-m-b{
