@@ -188,3 +188,16 @@ main{
     font-optical-sizing: auto;
     line-height: 1.5rem;
 }
+
+.container {
+    width: 60%;
+    max-width: 10000px; /* Tamanho máximo do contêiner */;
+    display: flex;
+    flex-direction: row;
+}
+.container img {
+    width: 100%; /* Ajusta a imagem para preencher o contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block;
+    align-self: center;
+}
